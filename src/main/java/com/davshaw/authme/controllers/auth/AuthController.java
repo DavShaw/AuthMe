@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 @RequiredArgsConstructor
 public class AuthController {
 
-    private final authService authService;
+    private final AuthService authService;
 
     @PostMapping(value = "register")
     ResponseEntity<AuthResponse> register(@RequestBody RegisterRequest request) {
