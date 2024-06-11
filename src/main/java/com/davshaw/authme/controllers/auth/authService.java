@@ -1,4 +1,4 @@
-package com.davshaw.authme.controller.auth;
+package com.davshaw.authme.controllers.auth;
 
 import org.springframework.stereotype.Service;
 

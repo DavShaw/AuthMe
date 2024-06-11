@@ -1,4 +1,4 @@
-package com.davshaw.authme.controller.auth;
+package com.davshaw.authme.controllers.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AuthResponse {
-    String token;
+public class RegisterRequest {
+    String user, password, email, firstname, lastname, country;
 }

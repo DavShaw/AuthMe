@@ -1,14 +1,15 @@
-package com.davshaw.authme.controller.auth;
+package com.davshaw.authme.roles;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class RegisterRequest {
+@Data
+public class User {
     String user, password, email, firstname, lastname, country;
+    Roles role;
 }
